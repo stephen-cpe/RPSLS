@@ -1,0 +1,117 @@
+
+body {
+    margin-top: 80px;
+    background-color: #1CA9C9;
+}
+
+p {
+    line-height: 1.4;
+    color: black;
+    text-align: center;
+}
+
+h1, h2, h3, h4, h6 {
+    font-family: ravie;
+    color: #1A4876;
+    margin: .25ex 10pt;
+    text-align: center;
+}
+
+h2, h5 {
+    font-size: 120%;
+    color: #FF5349;
+    text-align: center;
+}
+
+a {
+    text-decoration: none;
+    color: #f80;
+}
+
+a:hover {
+   text-decoration: underline;
+}
+
+.clear {
+    margin: 0;
+    padding: 0;
+    clear: both;
+}
+
+/* header */
+header { 
+    margin-top: auto; 
+}
+
+header h1 { margin-top: 0; }
+
+header p {
+    font-family: arial, sans-serif;
+    font-weight: bold;
+    font-style: italic;
+    font-size: 85%;
+    margin: .25ex 12pt;
+    color: #351;
+}
+
+/* MAIN CONTAINER */
+#maindiv {
+    width: 1100px;       
+    height: 450px;       
+    margin: 0 auto;     
+    padding-top: 30px;  
+    background-color: #9FE2BF;
+}
+
+/* RPS game */
+section#rpslsGame {
+    margin: 1em;
+}
+
+#dnd { width: 100%; }
+
+#dnd div {
+    float: left;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    border: none;
+}
+
+#dnd footer {
+    background-color: #158078;
+    font-family: Franklin, sans-serif;
+    font-weight: bold;
+    text-align: center;
+    padding: 3px 0;
+}
+
+p.message, p.error {
+    width: 100%;
+    margin: .5ex 0;
+    font: normal 1em Franklin, sans-serif;
+    padding: 3px;
+}
+
+p.message {
+    background-color: #76FF7A;
+    color: black;
+}
+
+/* transitions */
+#dnd div {
+  -webkit-transition: -webkit-transform 0.2s ease-out;
+  -moz-transition: -moz-transform 0.2s ease-out;
+  -o-transition: -o-transform 0.2s ease-out;
+  transition: transform 0.2s ease-out;
+}
+
+#dnd div.moving {
+  opacity: 0.25;
+  -webkit-transform: scale(0.8);
+  -moz-transform: scale(0.8);
+  -o-transform: scale(0.8);
+  transform: scale(0.8);
+}
+
+.red { color: #EE204D; }
+.blue { color: #1F75FE; }
